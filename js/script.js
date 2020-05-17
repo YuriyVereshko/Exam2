@@ -1,8 +1,8 @@
 ;(function ($) {
     $(function () {
         $('.slider').slick({
-            // autoplay: true,
-            // autoplaySpeed: 4000,
+            autoplay: true,
+            autoplaySpeed: 4000,
             dots: true,
             arrows: false,
             dotsClass: "vertical-dots",
@@ -14,8 +14,8 @@
             vertical: true
         });
         $('.s3__slider').slick({
-            // autoplay: true,
-            // autoplaySpeed: 4000,
+            autoplay: true,
+            autoplaySpeed: 4000,
             dots: true,
             arrows: true,
             infinite: true,
